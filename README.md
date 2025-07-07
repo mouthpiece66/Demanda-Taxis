@@ -13,12 +13,6 @@ Librerías de Python
 •	Matplotlib & Seaborn: visualización de datos (gráficas de líneas y dispersión)
 •	Scikit-learn:
 
-o	train_test_split para particionar datos en entrenamiento y prueba
-o	DecisionTreeRegressor para entrenamiento de árbol de decisión
-o	mean_squared_error como métrica (RMSE)
-
-•	XGBoost (xgboost): para entrenamiento del modelo de gradient boosting más preciso del proyecto
-•	Datetime (implícitamente con pd.to_datetime): para el manejo de fechas y horas en series temporales
 
 
 XGBoost fue el modelo más eficaz, con un RMSE de 26.07, muy por debajo del límite exigido (48).
