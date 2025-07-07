@@ -16,7 +16,10 @@ Librerías de Python
 
 
 XGBoost fue el modelo más eficaz, con un RMSE de 26.07, muy por debajo del límite exigido (48).
+
 •	La incorporación de características temporales (hour, day_of_week, lags) mejoró significativamente la calidad predictiva.
+
 •	El Árbol de Decisión fue más rápido pero menos preciso.
+
 •	La visualización final evidenció que XGBoost se ajusta mejor a los valores reales, sin sobreajuste ni alta varianza.
 
